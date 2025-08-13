@@ -1,6 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.currentRoute = void 0;
 // enum으로 객체 선언
 var RouteType;
 (function (RouteType) {
@@ -16,5 +13,20 @@ var ProgrammingLanguage;
     ProgrammingLanguage[ProgrammingLanguage["Python"] = 2] = "Python";
 })(ProgrammingLanguage || (ProgrammingLanguage = {}));
 // 1. 자동완성
-exports.currentRoute = RouteType['HOME'];
-console.log('CURRENT ROUTE', exports.currentRoute);
+export const currentRoute = RouteType['HOME'];
+console.log('CURRENT ROUTE', currentRoute);
+var UserResponse;
+(function (UserResponse) {
+    UserResponse[UserResponse["No"] = 0] = "No";
+    UserResponse[UserResponse["Yes"] = 1] = "Yes";
+})(UserResponse || (UserResponse = {}));
+function respond(recipient, message) {
+    // ...
+}
+respond('Princess Caroline', UserResponse.No);
+const myPet = 'cat';
+const printMyPet = (type) => {
+    if (type === 'cat') {
+    }
+};
+printMyPet(myPet);

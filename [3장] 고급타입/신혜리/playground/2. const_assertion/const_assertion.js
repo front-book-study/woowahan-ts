@@ -1,16 +1,13 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.currentRoute = void 0;
 // const assertion으로 객체 선언
-var ROUTES = {
+const ROUTES = {
     LOGIN: '/login',
     SIGN_UP: '/signup',
     HOME: '/',
     MYPAGE: '/my',
 };
 // 1. 자동완성 가능.
-exports.currentRoute = ROUTES['HOME'];
-console.log('CURRENT ROUTE', exports.currentRoute);
+export const currentRoute = ROUTES['HOME'];
+console.log('CURRENT ROUTE', currentRoute);
 // 2. 새로운 속성 추가불가
 // ROUTES['SIGN_IN'] = '/signin';
 // ㄴ> tsconfig strict true일때만 에러, false일때는 가능
