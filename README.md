@@ -50,6 +50,20 @@
 <td align="center">8/6(수)</td>
 <th align="left">[2장] 타입</th>
 </tr>
+<tr>
+<td align="center" colspan="5">2주차</td>
+</tr>
+<tr>
+<td align="center">8/13(수)</td>
+<th align="left">[3장] 고급 타입</th>
+</tr>
+<tr>
+<td align="center" colspan="5">3주차</td>
+</tr>
+<tr>
+<td align="center">8/21(목)</td>
+<th align="left">[4장] 타입 확장하기·좁히기</th>
+</tr>
 </tbody>
 </table>
 
