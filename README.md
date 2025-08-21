@@ -64,6 +64,9 @@
 <td align="center">8/21(목)</td>
 <th align="left">[4장] 타입 확장하기·좁히기</th>
 </tr>
+  <tr>
+<td align="center" colspan="5">4주차</td>
+</tr>
 <td align="center">8/28(목)</td>
 <th align="left">[5장] 타입 활용하기 [6장] 타입스크립트 컴파일</th>
 </tr>
